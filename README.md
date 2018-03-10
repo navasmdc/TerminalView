@@ -1,6 +1,34 @@
 # TerminalView
 Curious view that simulates a terminal 
 
+![Add Line](images/demo.gif)
+
+### Import
+Add it in your root build.gradle at the end of repositories:
+
+```
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+
+```
+Add the dependency
+
+```
+
+	dependencies {
+	        compile 'com.github.navasmdc:TerminalView:1.0'
+	}
+	
+
+```
+
+
 ### Use
 
 In order to use this view you have to add this lines to your xml file
